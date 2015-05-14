@@ -23,6 +23,10 @@ gem 'paperclip', '~> 4.2.1'
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.4.1'
 
+
+#paginate
+gem 'will_paginate', '~> 3.0.7'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

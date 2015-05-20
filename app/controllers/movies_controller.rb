@@ -4,6 +4,16 @@ class MoviesController < ApplicationController
 
   # GET /movies
   # GET /movies.json
+  
+def search
+    if params[:search].present?
+      @movies = Movie.search(params[:search])
+    else
+      @movies = Movie.all
+    end
+  end
+
+
   def index
     @movies = Movie.all.order("created_at DESC").paginate(page: params[:page], per_page: 3)
     

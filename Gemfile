@@ -22,6 +22,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'paperclip', '~> 4.2.1'
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.4.1'
+gem 'will_paginate-bootstrap', '~> 1.0.1'
+#search
+gem 'searchkick', '~> 0.8.7'
+#form
+gem 'simple_form', '~> 3.1.0'
 
 
 #paginate

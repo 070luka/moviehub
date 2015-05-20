@@ -1,0 +1,6 @@
+<% @result.each do |movie| %>
+
+<%= link_to movie_path(movie) do %>
+<%= image_tag movie.image.url(:medium).to_s %>
+<% end %>
+<% end %>

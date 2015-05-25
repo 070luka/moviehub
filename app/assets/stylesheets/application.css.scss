@@ -30,6 +30,97 @@ body {
 	border-bottom: 1px solid #EAEAEA;
 	.star-rating {
 		padding-bottom: 8px;
+		
 	}
+}
+
+.navbar-default {
+	background-color: #333;
+	border-color: #333;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+	
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	
+	color: #00FFFF;
+	background-color: transparent;
+
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color : #FFFFFF;
+	
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #00FFFF;
+	background-color: transparent;
+}
+
+.btn-primary {
+	background-color: #00E6E6;
+	border-color: #00E6E6;
+	color: inherit;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: inherit;
+	background-color: #47CCCC;
+	border-color: #47CCCC; 
+}
+
+.navbar-text > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+.thumbnail img:hover {
+	transform: scale(0.9);
+}
+
+.thumbnail img {
+	transition: all 0.2s ease 0s;
+	width: 100%
+}
+
+.thumbnail {
+	overflow: hidden;
+}
+
+.naslov {
+font-family: 'Kaushan Script', cursive;
+
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgb(0, 255, 255);
+    box-shadow: 0 1px 1px rgb(0, 255, 255) inset, 0 0 8px rgb(0, 255, 255);
+    outline: 0 none;
+}
+
+.btn-default {
+	
+	border-color: #00FFFF;
 }
 

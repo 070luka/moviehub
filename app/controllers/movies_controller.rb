@@ -15,7 +15,7 @@ def search
 
 
   def index
-    @movies = Movie.all.order("created_at DESC").paginate(page: params[:page], per_page: 3)
+    @movies = Movie.all.order("created_at DESC").paginate(page: params[:page], per_page: 8)
     
   end
 

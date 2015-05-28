@@ -124,5 +124,19 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 	border-color: #00FFFF;
 }
 
+html, body {
+	height: 100%;
+}
+.container {
+	display: table;
+	height: 100%;
+}
+.block {
+	display: table-row;
+	height: 1px;
+}
+.push {
+	height: auto;
+}
 
 
